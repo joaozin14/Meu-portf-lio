@@ -138,7 +138,7 @@ input[type="submit"] {
     opacity: 0.9;
 }
 
-/* Efeito de destaque para as barras verticais */
+/* Efeito de destaque para as barras verticais na apresentação */
 .titulo-principal {
     position: relative;
     padding: 0 1rem;
@@ -158,4 +158,184 @@ input[type="submit"] {
 
 .titulo-principal::after {
     right: 0;
+}
+
+/* Estilos para a seção de atividades acadêmicas */
+.atividades-academicas {
+    background-color: #121212;
+    padding: 4rem 3rem;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(106, 13, 173, 0.3);
+}
+
+/* Títulos das seções */
+.formação, 
+.atuação-titulo, 
+.soft-skills, 
+.objetivo-profissional {
+    color: #E6E6FA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-left: 1rem;
+    text-align: center;
+}
+
+/* Linha decorativa roxa nos títulos */
+/* Títulos das seções - versão centralizada */
+.formação, 
+.atuação-titulo, 
+.soft-skills, 
+.objetivo-profissional {
+    color: #E6E6FA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    text-align: center; /* Centraliza o texto */
+    padding: 0 1rem; /* Ajuste do padding */
+}
+
+/* Faixa roxa centralizada */
+.formação::before,
+.atuação-titulo::before,
+.soft-skills::before,
+.objetivo-profissional::before {
+    content: "";
+    position: absolute;
+    left: 50%; /* Posiciona no meio */
+    transform: translateX(-50%); /* Centraliza precisamente */
+    bottom: -10px; /* Posiciona abaixo do texto */
+    height: 4px; /* Altura reduzida para faixa horizontal */
+    width: 80px; /* Largura controlada */
+    background-color: #6A0DAD;
+    border-radius: 3px;
+}
+
+/* Textos de formação */
+.formação1, 
+.formação2, 
+.formação3,
+.atuação-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    text-align: center;
+}
+
+/* Listas de áreas de atuação */
+.list-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #6A0DAD;
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.5rem 1.5rem;
+    list-style: none;
+    text-align: center;
+}
+
+.list-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0.3rem;
+
+    opacity: 0.9;
+}
+
+/* Lista de soft skills */
+.soft-skills-list {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+    padding-left: 1.5rem;
+    position: relative;
+    list-style: none;
+    text-align: center;
+}
+
+/* hard skills*/
+/* Título Hard Skills */
+.hard-skills {
+    color: #E6E6FA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 3rem 0 1.5rem 0;
+    position: relative;
+    text-align: center;
+}
+
+.hard-skills::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    height: 4px;
+    width: 80px;
+    background-color: #6A0DAD;
+    border-radius: 3px;
+}
+
+/* Listas de Hard Skills */
+.list-titulo-hard {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #6A0DAD;
+    font-size: 1.2rem;
+    margin: 2rem 0 0.5rem 0;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 6px;
+}
+
+.list-text-hard {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0.3rem 0 0.8rem 0;
+    opacity: 0.9;
+    text-align: center;
+    list-style: none;
+    padding: 0 1.5rem;
+}
+
+/* Ícone decorativo para soft skills */
+.soft-skills-list::before {
+    content: "•";
+    color: #6A0DAD;
+    font-size: 1.5rem;
+    position: relative;
+    right: 6px;
+    top: 3px;
+    
+}
+
+/* Texto de objetivo profissional */
+.objetivo-profissional-text {
+    text-align: center;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    background-color: rgba(106, 13, 173, 0.1);
+    border-left: 3px solid #6A0DAD;
+    border-radius: 0 4px 4px 0;
+    margin-top: 40px;
 }
