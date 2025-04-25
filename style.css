@@ -326,7 +326,6 @@ input[type="submit"] {
 
 /* Texto de objetivo profissional */
 .objetivo-profissional-text {
-    text-align: center;
     display: block;
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
@@ -334,8 +333,7 @@ input[type="submit"] {
     line-height: 1.6;
     margin-top: 1rem;
     padding: 1.5rem;
-    background-color: rgba(106, 13, 173, 0.1);
+    background-color: rgba(106, 13, 173, 0.5);
     border-left: 3px solid #6A0DAD;
     border-radius: 0 4px 4px 0;
-    margin-top: 40px;
 }
