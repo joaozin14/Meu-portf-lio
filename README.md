@@ -55,7 +55,7 @@ portfolio/
 Clone o repositório:
 
 bash
-git clone https://github.com/joaozin14/portfolio.git
+git clone https://github.com/joaozin14/Meu-portf-lio.git
 Abra o arquivo index.html no navegador
 
 Ou acesse diretamente pelo GitHub Pages:
