@@ -337,3 +337,92 @@ input[type="submit"] {
     border-left: 3px solid #6A0DAD;
     border-radius: 0 4px 4px 0;
 }
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #121212;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-top: 1px solid rgba(106, 13, 173, 0.3);
+}
+
+.redes-sociais {
+    color: #E6E6FA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Estilo para todas as imagens do rodapé */
+.imgs img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #6A0DAD;
+    transition: all 0.3s ease;
+    padding: 5px;
+    background-color: #121212;
+}
+
+/* Efeito hover nas imagens */
+.imgs img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(106, 13, 173, 0.7);
+    border-color: #E6E6FA;
+}
+
+/* Estilo específico para cada imagem (opcional) */
+.github {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Linkedln {
+    background-color: rgba(10, 102, 194, 0.1);
+}
+
+.curriculo {
+    background-color: rgba(106, 13, 173, 0.2);
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    margin-top: 2rem;
+}
+
+/* Estilo para os links do menu */
+.barra-navegação a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+/* Rolagem suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Mantém o hover existente */
+.list:hover a {
+    color: #E6E6FA;
+}
+
+.cabeçalho a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 1rem;
+}
