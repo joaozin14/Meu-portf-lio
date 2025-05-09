@@ -1,9 +1,6 @@
 📌 Portfólio de João Henrique
 Desenvolvedor Full-Stack | Python | RPA | Front-End
 
-GitHub
-LinkedIn
-
 🚀 Sobre o Projeto
 Portfólio profissional desenvolvido com HTML e CSS puros, apresentando:
 
