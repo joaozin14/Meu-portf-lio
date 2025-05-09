@@ -79,6 +79,28 @@ h1,h2{
     width: 100%;
 }
 
+#curriculo-download{
+    background-color: rgba(106, 13, 173, 0.2); /* Roxo semi-transparente */
+    border-radius: 4px;
+}
+
+#curriculo-download a {
+    color: #E6E6FA !important; /* Roxo claro */
+}
+
+/* Mantém o hover mais intenso */
+#curriculo-download:hover {
+    background-color: rgba(106, 13, 173, 0.3);
+    box-shadow: 0 0 5px rgba(106, 13, 173, 0.5);
+}
+
+/* Ajusta o pseudo-elemento da barra inferior */
+#curriculo-download::after {
+    background-color: #6A0DAD; /* Roxo claro */
+    width: 100% !important; /* Força a barra a aparecer */
+    opacity: 0.7; /* Transparência reduzida */
+}
+
 input[type="submit"] {
     background-color: #6A0DAD; /* Roxo principal */
     color: white;
